@@ -1,0 +1,55 @@
+body {}
+h1 {}
+h2 {}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+@media only screen and (min-width: 390px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    #box {
+        color:rgb(159, 239, 159);
+    }
+
+    body {
+        font-size: 20px;
+        margin: 15px;
+        background-color: rgb(140, 193, 236);
+    }
+    
+    
+}
+
+@media only screen and (min-width: 800px) {
+   body {
+    background-image: url('#');
+    margin: 10px;
+   }
+
+   #kittens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media only screen and (min-width: 1040px) {
+    body {
+     background-color: rgb(226, 125, 133);
+     max-width: 1080px;
+     margin: 20px auto;
+    }
+ 
+    #kittens {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    }
+ }
+ 
